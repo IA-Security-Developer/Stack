@@ -2,19 +2,21 @@
 
 ## Objetivo
 
-Learn the next fundamentals commands in Linux Debian.
+Aprender los comandos fundamentales de Linux Debian.
 
-## Navegacion
+## Navegación
 
+```bash
 pwd
+ls
 ls -la
 cd
 tree
-...
+```
 
-## Files
+## Archivos
 
-...bash
+```bash
 touch
 nano
 cat
@@ -22,23 +24,25 @@ mkdir
 mv
 cp
 rm
-...
+```
 
-## Acces
+## Permisos
+
+```bash
 chmod
 chown
-...
+```
 
-#Red
+## Red
 
-...bash
+```bash
 ss -tuln
 ip a
 ping
-...
+```
 
 ## Servicios
 
-...bash
+```bash
 systemctl status ssh
-...
+```
